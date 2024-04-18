@@ -16,7 +16,9 @@ $ ng serve
 ## Link para visualizar o projecto
 `http://localhost:4200/`
 
-Depois abra `http://localhost:4200/` nio 
+## Login
+* email: jsilva
+* password: admin
 
 
 
