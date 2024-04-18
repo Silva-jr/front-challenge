@@ -1,0 +1,44 @@
+<div class="form-container">
+  <form #formRoom="ngForm" (ngSubmit)="addRoom(formRoom)">
+    <h2 class="form-title">Registar Sala</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="" class="label">Designacão</label>
+        <div class="form-controls">
+          <input
+            type="text"
+            id="description" name="description" [(ngModel)]="newRoom.description"
+            placeholder="Designacão da sala"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="" class="label">Salas Funcionais </label>
+        <div class="form-controls">
+          <input
+            type="number"       min="0"
+            max="25"
+            id="nonFunctional" name="nonFunctional" [(ngModel)]="newRoom.functional"
+          
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="label">Salas não funcionais</label>
+        <div class="form-controls">
+          <input
+            type="number"
+            id="functional" min="0" name="functional" [(ngModel)]="newRoom.nonFunctional"
+        
+          />
+        </div>
+      </div>
+    </div>
+    <div class="form-row-bottom">
+      <button type="reset" class="btn btn-cancel" (click)="closeModal()" >Cancelar</button>
+      <button type="submit" class="btn btn-send">Cadastrar</button>
+    </div>
+  </form>
+</div>

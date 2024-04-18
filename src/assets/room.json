@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "description": "Salas de Aulas Teóricas",
+        "functional": 0,
+        "nonFunctional": 0,
+        "total": 0
+    },
+    {
+        "id": 2,
+        "description": "Salas de Informática",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 2,
+        "description": "Laboratórios de Automação",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 1
+    },
+    {
+        "id": 3,
+        "description": "Laboratórios de Biologia",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 4,
+        "description": "Laboratórios de CAD",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 5,
+        "description": "Laboratórios de CNC",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 6,
+        "description": "Laboratórios de Electrónica",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 7,
+        "description": "Laboratórios de Energias Renováveis",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 8,
+        "description": "Laboratórios de Física",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 9,
+        "description": "Laboratórios de Frio e Climatização",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 10,
+        "description": "Laboratórios de Instalações Eléctricas",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 11,
+        "description": "Laboratórios de Máquinas Eléctricas",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 12,
+        "description": "Laboratórios de Metalomecânica",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 13,
+        "description": "Laboratórios de Química",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 14,
+        "description": "Laboratórios de Telecomunicações",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 15,
+        "description": "Oficinas de Construções Mecânicas",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 16,
+        "description": "Oficinas de Máquinas e Motores",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    },
+    {
+        "id": 17,
+        "description": "Oficinas de Soldadura",
+        "functional": 1,
+        "nonFunctional": 1,
+        "total": 2
+    }
+]

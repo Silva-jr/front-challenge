@@ -1,0 +1,52 @@
+
+<section class="page-auth">
+    <aside class="page-auth-left">    
+  
+      <img class="studentIllustration" src="../../assets/images/study.svg" alt="Estudante" />
+  
+      <div class="page-auth-left-info">
+        <h2 class="text-1">
+  
+        </h2>
+        <p class="text-5">
+  
+        </p>
+      </div>
+    </aside>
+    <div class="page-auth-right">
+      <div class="main-content">
+        <h2 class="text-1">
+          Login
+        </h2>
+        <p class="text-5">
+          Insira as suas credencias 🤗
+        </p>
+        <div class="separator"></div>
+        <form  >
+          <div class="inputBox">
+            <label htmlFor="email">
+              Email
+            </label>
+            <input id="userName" name="userName" type="text" placeholder="Digite o seu email" required [(ngModel)]="user.userName" />
+            <p class="error-message">
+  
+            </p>
+          </div>
+          <div class="inputBox">
+            <label htmlFor="password">
+              Senha
+            </label>
+            <input id="password" name="password" class="errors.password" type="password" placeholder="senha" required [(ngModel)]="user.password" />
+            <p class="error-message">
+  
+            </p>
+          </div>
+          <Button class="login-button" type="submit" (click)="login()">
+            Entrar
+          </Button>
+        </form>
+      </div>
+  
+    </div>
+  </section>
+  

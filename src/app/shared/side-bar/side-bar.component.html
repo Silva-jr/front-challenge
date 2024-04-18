@@ -1,0 +1,11 @@
+<div class="asside">
+    <div class="profile">
+        <img class="profile-img" src="../../../assets/icons/Vector.png" alt="">
+        <div class="name">
+            <p>{{userObject.userName}}</p>
+            <p *ngIf="userObject.isAdmin">Administrador</p>
+            <p *ngIf="!userObject.isAdmin">Geral</p>
+        </div>
+        <img (click)="logout()" class="logout" src="../../../assets/icons/SignOut.png" alt="">
+    </div>
+</div>

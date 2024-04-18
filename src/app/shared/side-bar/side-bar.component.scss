@@ -1,0 +1,39 @@
+.asside {
+    width: 321px;
+    height: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #d9d9d9;
+    top: 0;
+    left: 0;
+    max-width: 27.7rem;
+    position: fixed;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .profile{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #C4C4C4;
+        padding: 2rem;
+        &-img{
+            width: 40px;
+        }
+        .name{
+            width: 100%;
+            padding: 0 1rem;
+            p{
+                font-size: 1.2rem;
+                &:first-child{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        .logout{
+            width: 3.5rem;
+        }
+    }
+  }
