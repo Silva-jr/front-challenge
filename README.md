@@ -1,31 +1,31 @@
-# Teste
+# <h1><p align="center">Front-challenge</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Descrição
 
-## Code scaffolding
+O objetivo deste desafio é criar uma aplicação que liste as infraestruturas de uma escola, 
+permitindo a classificação de laboratórios ou salas de aulas como funcionais e não funcionais.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Executar o projecto
+```bash
+$ ng serve
+```
 
-## Build
+## Link para visualizar o projecto
+`http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Depois abra `http://localhost:4200/` nio 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Ferramentas utiliizadas
+* Angular 15
+  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# front-challenge
-# front-challenge
-# front-challenge
-# front-challenge
+## Contactos
+
+- Autor - [José Da Silva](https://www.linkedin.com/in/jos%C3%A9-silva12/)
